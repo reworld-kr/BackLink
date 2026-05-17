@@ -2,14 +2,14 @@
 
 > Windows용 WordPress 자동 포스팅 + 백링크 빌더 — 다중 사이트 / AI 본문 생성 / 예약 발행.
 
-[ReWorld](https://reworld.kr) 데스크톱 앱의 **release 배포 채널**입니다. 소스 코드는 별도 모노레포(`reworld-kr/ReWorld`)에서 관리되고, 이 repo는 빌드 산출물(`BackLink.exe`, NSIS installer, checksums)만 호스팅합니다.
+[ReWorld](https://reworld.kr) 데스크톱 앱의 **release 배포 채널**입니다. 소스 코드는 별도 모노레포(`reworld-kr/ReWorld`)에서 관리되고, 이 repo는 빌드 산출물(`backlink.exe`, NSIS installer, checksums)만 호스팅합니다.
 
 ## 다운로드
 
 [**최신 버전 다운로드 ↓**](https://github.com/reworld-kr/BackLink/releases/latest)
 
-- `BackLink.exe` — bare 실행 파일 (압축/설치 없이 즉시 실행)
-- `BackLink_Setup.exe` — NSIS 설치 마법사 (사용자 디렉터리에 설치, UAC 불필요)
+- `backlink.exe` — bare 실행 파일 (압축/설치 없이 즉시 실행)
+- `backlink_setup.exe` — NSIS 설치 마법사 (사용자 디렉터리에 설치, UAC 불필요)
 - `checksums.txt` — SHA-256 무결성 검증
 
 설치 후 자동 업데이트가 켜져 있어 새 버전 출시 시 다음 실행에 백그라운드 적용됩니다.
